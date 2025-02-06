@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		23CA3FD42D52E8A500725427 /* Creed-Lite in Frameworks */ = {isa = PBXBuildFile; productRef = 23CA3FD32D52E8A500725427 /* Creed-Lite */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AF0A21A92CEE901300D7839B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF0A21902CEE901200D7839B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF0A21972CEE901200D7839B;
+			remoteInfo = Ladder;
+		};
+		AF0A21B32CEE901300D7839B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF0A21902CEE901200D7839B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF0A21972CEE901200D7839B;
+			remoteInfo = Ladder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AF0A21982CEE901200D7839B /* Ladder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ladder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF0A21A82CEE901300D7839B /* LadderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LadderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF0A21B22CEE901300D7839B /* LadderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LadderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		23CA3FCB2D52D40B00725427 /* Exceptions for "Ladder" folder in "Ladder" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = AF0A21972CEE901200D7839B /* Ladder */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		AF0A219A2CEE901200D7839B /* Ladder */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				23CA3FCB2D52D40B00725427 /* Exceptions for "Ladder" folder in "Ladder" target */,
+			);
+			path = Ladder;
+			sourceTree = "<group>";
+		};
+		AF0A21AB2CEE901300D7839B /* LadderTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = LadderTests;
+			sourceTree = "<group>";
+		};
+		AF0A21B52CEE901300D7839B /* LadderUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = LadderUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF0A21952CEE901200D7839B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23CA3FD42D52E8A500725427 /* Creed-Lite in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF0A21A52CEE901300D7839B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF0A21AF2CEE901300D7839B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF0A218F2CEE901200D7839B = {
+			isa = PBXGroup;
+			children = (
+				AF0A219A2CEE901200D7839B /* Ladder */,
+				AF0A21AB2CEE901300D7839B /* LadderTests */,
+				AF0A21B52CEE901300D7839B /* LadderUITests */,
+				AFF1C9892CEFE5AA00A2EEDA /* Frameworks */,
+				AF0A21992CEE901200D7839B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF0A21992CEE901200D7839B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF0A21982CEE901200D7839B /* Ladder.app */,
+				AF0A21A82CEE901300D7839B /* LadderTests.xctest */,
+				AF0A21B22CEE901300D7839B /* LadderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AFF1C9892CEFE5AA00A2EEDA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF0A21972CEE901200D7839B /* Ladder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF0A21BC2CEE901300D7839B /* Build configuration list for PBXNativeTarget "Ladder" */;
+			buildPhases = (
+				AF0A21942CEE901200D7839B /* Sources */,
+				AF0A21952CEE901200D7839B /* Frameworks */,
+				AF0A21962CEE901200D7839B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				AF0A219A2CEE901200D7839B /* Ladder */,
+			);
+			name = Ladder;
+			packageProductDependencies = (
+				23CA3FD32D52E8A500725427 /* Creed-Lite */,
+			);
+			productName = Ladder;
+			productReference = AF0A21982CEE901200D7839B /* Ladder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AF0A21A72CEE901300D7839B /* LadderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF0A21BF2CEE901300D7839B /* Build configuration list for PBXNativeTarget "LadderTests" */;
+			buildPhases = (
+				AF0A21A42CEE901300D7839B /* Sources */,
+				AF0A21A52CEE901300D7839B /* Frameworks */,
+				AF0A21A62CEE901300D7839B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF0A21AA2CEE901300D7839B /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				AF0A21AB2CEE901300D7839B /* LadderTests */,
+			);
+			name = LadderTests;
+			packageProductDependencies = (
+			);
+			productName = LadderTests;
+			productReference = AF0A21A82CEE901300D7839B /* LadderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AF0A21B12CEE901300D7839B /* LadderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF0A21C22CEE901300D7839B /* Build configuration list for PBXNativeTarget "LadderUITests" */;
+			buildPhases = (
+				AF0A21AE2CEE901300D7839B /* Sources */,
+				AF0A21AF2CEE901300D7839B /* Frameworks */,
+				AF0A21B02CEE901300D7839B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF0A21B42CEE901300D7839B /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				AF0A21B52CEE901300D7839B /* LadderUITests */,
+			);
+			name = LadderUITests;
+			packageProductDependencies = (
+			);
+			productName = LadderUITests;
+			productReference = AF0A21B22CEE901300D7839B /* LadderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF0A21902CEE901200D7839B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					AF0A21972CEE901200D7839B = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					AF0A21A72CEE901300D7839B = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = AF0A21972CEE901200D7839B;
+					};
+					AF0A21B12CEE901300D7839B = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = AF0A21972CEE901200D7839B;
+					};
+				};
+			};
+			buildConfigurationList = AF0A21932CEE901200D7839B /* Build configuration list for PBXProject "Ladder" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF0A218F2CEE901200D7839B;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				23CA3FD22D52E8A500725427 /* XCRemoteSwiftPackageReference "creed-lite" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = AF0A21992CEE901200D7839B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF0A21972CEE901200D7839B /* Ladder */,
+				AF0A21A72CEE901300D7839B /* LadderTests */,
+				AF0A21B12CEE901300D7839B /* LadderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF0A21962CEE901200D7839B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF0A21A62CEE901300D7839B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF0A21B02CEE901300D7839B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF0A21942CEE901200D7839B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF0A21A42CEE901300D7839B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF0A21AE2CEE901300D7839B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AF0A21AA2CEE901300D7839B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF0A21972CEE901200D7839B /* Ladder */;
+			targetProxy = AF0A21A92CEE901300D7839B /* PBXContainerItemProxy */;
+		};
+		AF0A21B42CEE901300D7839B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF0A21972CEE901200D7839B /* Ladder */;
+			targetProxy = AF0A21B32CEE901300D7839B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AF0A21BA2CEE901300D7839B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AF0A21BB2CEE901300D7839B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF0A21BD2CEE901300D7839B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Ladder/Ladder.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Ladder/Preview Content\"";
+				DEVELOPMENT_TEAM = 47C67EY3XL;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Ladder/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ladder.Ladder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF0A21BE2CEE901300D7839B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Ladder/Ladder.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Ladder/Preview Content\"";
+				DEVELOPMENT_TEAM = 47C67EY3XL;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Ladder/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ladder.Ladder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AF0A21C02CEE901300D7839B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 47C67EY3XL;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ladder.LadderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ladder.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Ladder";
+			};
+			name = Debug;
+		};
+		AF0A21C12CEE901300D7839B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 47C67EY3XL;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ladder.LadderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ladder.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Ladder";
+			};
+			name = Release;
+		};
+		AF0A21C32CEE901300D7839B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 47C67EY3XL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ladder.LadderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ladder;
+			};
+			name = Debug;
+		};
+		AF0A21C42CEE901300D7839B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 47C67EY3XL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ladder.LadderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ladder;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF0A21932CEE901200D7839B /* Build configuration list for PBXProject "Ladder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF0A21BA2CEE901300D7839B /* Debug */,
+				AF0A21BB2CEE901300D7839B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF0A21BC2CEE901300D7839B /* Build configuration list for PBXNativeTarget "Ladder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF0A21BD2CEE901300D7839B /* Debug */,
+				AF0A21BE2CEE901300D7839B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF0A21BF2CEE901300D7839B /* Build configuration list for PBXNativeTarget "LadderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF0A21C02CEE901300D7839B /* Debug */,
+				AF0A21C12CEE901300D7839B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF0A21C22CEE901300D7839B /* Build configuration list for PBXNativeTarget "LadderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF0A21C32CEE901300D7839B /* Debug */,
+				AF0A21C42CEE901300D7839B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		23CA3FD22D52E8A500725427 /* XCRemoteSwiftPackageReference "creed-lite" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/bratxdy/creed-lite";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		23CA3FD32D52E8A500725427 /* Creed-Lite */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 23CA3FD22D52E8A500725427 /* XCRemoteSwiftPackageReference "creed-lite" */;
+			productName = "Creed-Lite";
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = AF0A21902CEE901200D7839B /* Project object */;
+}
