@@ -18,11 +18,7 @@ struct WorkoutView: View {
             makeVideoPlayerView()
             
             VStack {
-                makeTitleView()
-                
-                Spacer()
-                
-                makeTimerView()
+                makeTopView()
                 
                 makeCountView()
             }
@@ -44,6 +40,33 @@ struct WorkoutView: View {
             }
     }
     
+    @ViewBuilder func makeTopView() -> some View {
+        ZStack {
+            VStack(spacing: 0) {
+                makeTitleView()
+                
+                Spacer()
+                
+                makeTimerView()
+            }
+            
+            Button {
+                viewModel.togglePlay()
+            } label: {
+                VStack {
+                    Image(systemName: "play.fill")
+                        .resizable()
+                        .frame(width: 64, height: 64)
+                        .foregroundStyle(.ladderWhite.opacity(viewModel.isPlaying ? 0.0 : 0.50))
+                        .padding(.top, 240)
+                    
+                    Spacer()
+                }
+                .frame(maxWidth: .infinity, maxHeight: .infinity)
+            }
+        }
+    }
+    
     @ViewBuilder func makeTitleView() -> some View {
         ZStack {
             LinearGradient(gradient: Gradient(colors: [.ladderBlack.opacity(1.0), .ladderBlack.opacity(0)]), startPoint: .top, endPoint: .bottom)
@@ -58,12 +81,7 @@ struct WorkoutView: View {
     }
     
     @ViewBuilder func makeTimerView() -> some View {
-        TimerView(viewModel: .init(initialDuration: viewModel.feat.durationSeconds, onCompleted: {
-            viewModel.player.pause()
-            withAnimation {
-                viewModel.isShowingCompleteButton = true
-            }
-        }))
+        TimerView(viewModel: viewModel.timerViewModel)
         .padding(.bottom, 24)
     }
     
