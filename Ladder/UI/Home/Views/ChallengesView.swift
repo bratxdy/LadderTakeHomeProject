@@ -59,7 +59,7 @@ struct ChallengesView: View {
         ScrollView(.horizontal) {
             LazyHStack(spacing: 24) {
                 ForEach(viewModel.feats.feats, id: \.self) { feat in
-                    AsyncImage(url: feat.imageURL) { image in
+                    CachedAsyncImage(url: feat.imageURL) { image in
                         image
                             .resizable()
                             .aspectRatio(contentMode: .fill)
@@ -115,8 +115,8 @@ struct ChallengesView: View {
     @ViewBuilder func makeCompletionsView(for selectedFeat: Feat) -> some View {
         HStack(spacing: 8) {
             HStack(spacing: 0) {
-                ForEach(selectedFeat.top3Users, id: \.self) { user in
-                    AsyncImage(url: user.imageURL) { image in
+                ForEach(selectedFeat.top3Users, id: \.id) { user in
+                    CachedAsyncImage(url: user.imageURL) { image in
                         image
                             .resizable()
                             .frame(width: 20, height: 22)

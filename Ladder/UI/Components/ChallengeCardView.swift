@@ -60,7 +60,7 @@ struct ChallengeCardView: View {
                 .padding(.top, 16)
                 .padding(.bottom, 24)
             
-            AsyncImage(url: previewImageURL) { image in
+            CachedAsyncImage(url: previewImageURL) { image in
                 image
                     .resizable()
                     .aspectRatio(contentMode: .fill)
