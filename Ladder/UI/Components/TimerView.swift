@@ -42,6 +42,10 @@ class TimerViewModel: ObservableObject {
             }
     }
     
+    func stopTimer() {
+        cancellable?.cancel()
+    }
+    
     func getTimeRemainingString() -> String {
         return Duration.seconds(timeRemaining).formatted(.time(pattern: .minuteSecond))
     }
